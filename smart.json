@@ -1,0 +1,9 @@
+{
+  "name": "platform.js",
+  "description": "A platform detection library that works on nearly all JavaScript platforms.",
+  "homepage": "http://github.com/hitchcott/meteor-platform.js",
+  "author": "Chris Hitchcott <hitchcott@gmail.com>",
+  "version": "0.0.1",
+  "git": "http://github.com/hitchcott/meteor-platform.js",
+  "packages": {}
+}
