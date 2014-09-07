@@ -14,6 +14,7 @@ $ mrt add platform.js
 
 Simply refer to the `platform` object within your app, which gives you access to the values below:
 
+
 ### Access `platform` on Client
 
 ```
@@ -55,6 +56,19 @@ Simply refer to the `platform` object within your app, which gives you access to
   toString: [Function: toStringPlatform]
 }
 ```
+
+### Use `platform.parse` anywhere
+
+```
+var info = platform.parse('Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7.2; en; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 11.52');
+info.name; // 'Opera'
+info.version; // '11.52'
+info.layout; // 'Presto'
+info.os; // 'Mac OS X 10.7.2'
+info.description; // 'Opera 11.52 (identifying as Firefox 4.0) on Mac OS X 10.7.2'
+```
+
+For the full API check out the [platform.js github page](https://github.com/bestiejs/platform.js/).
 
 
 ## Credits / License
