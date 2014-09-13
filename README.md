@@ -2,15 +2,16 @@
 
 **A platform detection library that works on nearly all JavaScript platforms.**
 
-For full library documentation please refer to [platform.js on github](https://github.com/bestiejs/platform.js/).
+The [platform.js](https://github.com/bestiejs/platform.js/) library packaged for Meteor.
+
+## Installation
+
+|Meteor >= 0.9 | Meteor < 0.9 |
+|--------------|--------------|
+| `meteor add hitchcott:platform` | `mrt add platform.js` |
+
 
 ## Usage
-
-Install using meteorite
-
-```
-$ mrt add platform.js
-```
 
 Simply refer to the `platform` object within your app, which gives you access to the values below:
 
@@ -73,7 +74,7 @@ For the full API check out the [platform.js github page](https://github.com/best
 
 ## Credits / License
 
-* Lib & Package Available under MIT
+* Library & Package Available under MIT
 * [Platform.js](http://mths.be/platform) by [John-David Dalton](http://allyoucanleet.com/), 2010
 * Packaged for Meteor by [Chris Hitchcott](mailto:hitchcott@gmail.com), 2014
 
